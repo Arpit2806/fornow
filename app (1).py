@@ -38,7 +38,7 @@ st.markdown(
 )
 
 # --- Model loading ---
-MODEL_PATH = Path('/mnt/data/logistic_regression_model1.pkl')
+MODEL_PATH = Path('logistic_regression_model1.pkl')
 uploaded_model = st.sidebar.file_uploader("Upload statsmodels result (.pkl/.joblib) (optional)", type=['pkl', 'joblib'])
 
 model = None
