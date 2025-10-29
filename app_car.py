@@ -13,7 +13,7 @@ import os
 st.set_page_config(page_title="Car Price Prediction Dashboard", layout="wide")
 st.title("🚗 Car Price Prediction Dashboard")
 
-MODEL_PATH = "/mnt/data/car_price_model.pkl"
+MODEL_PATH = "car_price_model.pkl"
 
 @st.cache_resource
 def try_pickle_load(data_bytes):
